@@ -20,9 +20,11 @@ Conv3D_hippo_reduced_nn : Same code with a reduced neural network <br>
 Conv3D_hippo_data_augmentation : Same code with data augmentation (using 'flips' on the hippocampus) <br>
 Conv3D_random_region : Same code but with another region than the hippocampus to observe its importante in Alzheimer disease <br>
 
+- 2D slice of a 3D MRI image of the brain with the position of hippocampus :
+
+
 ![2D slice of a 3D MRI image of the brain](image_2023-02-18_111441802.png) <br>
 
-2D slice of a 3D MRI image of the brain with the position of hippocampus 
 
 - At best, we obtained a 88% accuracy on the binary classification between AD (Alzheimer disease) and CN (Cognitively Normal) patients with the 2D-epsilon model focusing on hippocampus. 
 
