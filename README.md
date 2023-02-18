@@ -24,7 +24,9 @@ Conv3D_random_region : Same code but with another region than the hippocampus to
 
 2D slice of a 3D MRI image of the brain with the position of hippocampus 
 
-- At best, we obtained a 88% accuracy on the binary classification between AD (Alzheimer disease) and CN (Cognitively Normal) patients. We also tried to predict other categories of development of the disease : pMCI (progressive mild cognitive impairment) that leads to more risks of reaching AD, and sMCI (stable mild cognitive impairment). By assuming the pMCI were closer to the AD patients and the sMCI closer to  the CN patients, we tried to predict the category of MCI patients with the models trained with AD and CN data. We finally obtained our best score with the 3D CNN on the hippocampus region with an accuracy of 70%.
+- At best, we obtained a 88% accuracy on the binary classification between AD (Alzheimer disease) and CN (Cognitively Normal) patients with the 2D-epsilon model focusing on hippocampus. 
+
+- We also tried to predict other categories of development of the disease : pMCI (progressive mild cognitive impairment) that leads to more risks of reaching AD, and sMCI (stable mild cognitive impairment). By assuming the pMCI were closer to the AD patients and the sMCI closer to  the CN patients, we tried to predict the category of MCI patients with the models trained with AD and CN data. We finally obtained our best score with the 3D CNN on the hippocampus region with an accuracy of 70%.
 
 - Contributors : 
 Walid Kini, Yassine Mougou, Corentin Leger, Jacques Kafak 
